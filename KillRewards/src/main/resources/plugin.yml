@@ -1,0 +1,7 @@
+name: KillRewards
+version: '${project.version}'
+main: firerozha.github.com.killrewards.KillRewards
+api-version: 1.13
+prefix: KillRewards
+authors: [ FireRoz ]
+description: Kill rewards

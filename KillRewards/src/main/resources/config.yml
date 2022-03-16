@@ -1,0 +1,22 @@
+# Thank you so much for downloading my plugin
+#Made in <3 by fireroz
+#######################################
+#            Kill reward              #
+#######################################
+# When a player kills another player, should they get money? (works with vault economy)
+# default: true
+killreward: true
+# If the above is set to true, should they get a random amount of money between the numbers you choose? (e.g from 6-12)
+# default: false
+randomreward: false
+# If the above is set to true, what is the amount?
+# default: 6-12
+between1: 6 #Between 6 dollars
+between2: 12 #and 12 dollars.
+# If random reward is set to false, what is the specified amount a player should get when killing another player?
+# Default: 10
+specifiedkillreward: 10
+# The message that the killer gets when he receives his money
+# P.S the dollar is not a part of the variable
+# default: &aYou have been rewarded ${money} for killing {player}
+rewardmessage: "&aYou have been rewarded ${money} for killing {player}"
